@@ -1,0 +1,103 @@
+/* CLASES EN CONTACT-ME */
+.Contact {
+  background-color: rgba(252, 136, 69, 0.801);
+  padding: 10%;
+}
+.form-control{
+  background-color: rgba(252, 136, 69, 0);
+} 
+label {
+  display: inline-block;
+  margin-bottom: .5rem
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #303335;
+  background-clip: padding-box;
+  border-bottom: 1px solid #e6d0c3;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+button, input {
+  overflow: visible;
+}
+.text-muted {
+  color: #313233!important;
+}
+.form-text {
+  display: block;
+  margin-top: .25rem;
+}
+.small, small {
+  font-size: 80%;
+  font-weight: 400;
+}
+textarea.form-control {
+  height: auto;
+}
+textarea {
+  overflow: auto;
+  resize: vertical;
+}
+button, input, optgroup, select, textarea {
+  margin: 0;
+  font-family: inherit;
+}
+button, select {
+  text-transform: none;
+}
+.btn {
+  color:white;
+  display: inline-block;
+  background-color: rgb(241, 120, 72);
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid rgb(189, 115, 45);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.font-bolder {
+  font-weight: bolder;
+}
+.QuickID {
+  background: rgba(233, 127, 27, 0.041);
+  margin-top: 30px;
+  padding: 20px;
+}
+.personal-information {
+  display: inline-block;
+  justify-content: center;
+}
+.personal-information p{
+  text-align: left;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  background-color: rgb(241, 120, 72) ;
+  border: solid 1px rgb(233, 82, 28);
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 30px;
+} 
+.justify-content {
+  justify-content: end;
+  text-align: center;
+}

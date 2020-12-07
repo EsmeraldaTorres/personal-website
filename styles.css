@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*barra de navegación*/
+.navbar {
+    height: 50px;
+    width: 100%;
+    position:fixed;
+    z-index: 9;
+    background: #f4eff7f2;
+    padding: 20px;
+    border-bottom: solid 2px #b1670cdb;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.myFirm {
+    font-size: 1.1rem;
+    font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.menu a {
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 10px;
+    font-size: 0.9rem;
+    color: black;
+    height: 20px;
+}
+
+.menu a:hover {
+    background-color: #80bed5;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+/* Section1 */
+.main-Img{
+    width: 50%
+
+}
+.center-img {    
+    justify-content: center;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.mainTitle {
+    width: 100%;
+}
+
+.text-1 {
+    font-family: 'Cabin', sans-serif;
+    font-family: 2rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.text-2 {
+    font-family: 'Cabin', sans-serif;
+    font-family: 2rem;    
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    padding: 10px;
+}
+
+.text-1 {
+    font-family: 'Cabin', sans-serif;
+    font-family: 2rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.section1 {
+    padding-top: 50px;
+    background-image: url('https://images.pexels.com/photos/4590785/pexels-photo-4590785.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+}
+
+
+@media(min-width: 768px){
+    .row { 
+        display: flex;
+        justify-content: center;
+    }    
+
+    .col-md-6 {
+        width: 50%;
+        padding: 1rem;
+    }
+
+    .text-2 {
+        margin: 50px;
+    }
+}
+
+@media (max-width: 450px){
+    .row { 
+        display: flex;
+        justify-content: center;
+    }    
+
+    .navbar {
+        height: 110px;
+        padding: 10px;
+        font-size: smaller;
+    }
+
+    .myFirm {
+        font-size: 1.5rem;
+        margin-top: 30px;
+    }
+    
+    .menu a {
+        font-family: Tahoma, sans-serif;
+        margin-bottom: 10px;
+        font-size: 1rem;
+        display: block;
+    }
+
+    .content {
+        margin-top: 110px;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+        padding: 1rem;
+    }
+
+}

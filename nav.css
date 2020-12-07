@@ -1,0 +1,49 @@
+/* CLASES EN NAVEGACIÓN */
+nav {
+  height: 50px;
+  width: 100%;
+  background-color: white;
+  border-bottom: solid 2px #b1670cdb;
+  justify-content: space-between;
+  display: flex;
+  position: fixed;
+  z-index: 9;
+}  
+ul {
+  text-decoration: none;
+  font-family: sans-serif;
+  padding-right: 30px;
+  font-size: 0.9rem;
+  color: black;
+  right: 0%;
+} 
+li{
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+a:hover {
+  text-transform: uppercase;
+}
+.justify-content-end {
+  justify-content: end;
+} 
+a {
+  color: black;
+  text-decoration: none;
+} 
+i {
+  padding:10px;
+}
+.hide {
+  display: none;
+}
+#menu {
+  position: fixed;
+  margin-top: 50px;
+  background-color: rgb(255, 255, 255);
+}
+.myFirm {
+  padding-left: 5%;
+  padding-top: 15px;
+}

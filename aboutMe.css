@@ -1,0 +1,56 @@
+/* CLASES EN ABOUT ME */
+.about-me, .Projects, .QuickID {
+  margin: 2% 5% 2% 5%;
+}
+.Education, .Skills, .Pursuits, .Languages {
+  border-bottom: solid .5px rgba(128, 128, 128, 0.568);
+  padding: 30px;
+}
+.title {
+  font-size: 1.5rem;
+  color: rgb(226, 101, 17);
+  padding-bottom: 10px;
+}
+.disp-inline {
+  display: inline;
+}
+.padding {
+  padding: 10px;
+}
+hr {
+  height: 1px;
+  width: 50%;
+  background-color: rgba(175, 175, 175, 0.637);
+  margin-left: 25%;
+
+}
+h2, h3, h4 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-top: 50px;
+}
+h2, h3 {
+  background-color: rgb(255, 165, 105);
+}
+.progress {
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  line-height: 0;
+  font-size: .75rem;
+  background-color: #f5e9ef;
+  border-radius: .25rem;
+  margin: 10px 0px 10px 0px;
+}
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  color: #2d2b2b;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #fa831496;
+  transition: width .6s ease;
+}

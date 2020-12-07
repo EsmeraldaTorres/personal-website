@@ -1,0 +1,69 @@
+/* Grid Responsive */
+/* Small Screen */
+@media (min-width: 576px) {
+  #menu {
+    position: fixed;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  } 
+  .col-sm-12 {
+      width: 100%; 
+  }
+    }
+      
+@media (min-width: 768px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  } 
+  .hide {
+    display: initial;
+  }
+  .txt-home {
+    text-align: center;
+  }
+  i {
+    margin-right: -100px;
+  }   
+  li{
+    text-decoration: none;
+    display: inline;
+  }
+  #menu {
+    position: fixed;
+    margin-top: 15px;
+  }   
+  .col-md-6 {
+    width: 50%;
+  }    
+  .col-md-12 {
+      width: 100%; 
+  }     
+    }
+
+@media (min-width: 992px) { 
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  } 
+  .QuickID {
+    margin: 0%;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .txt-home {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 50px;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }      
+  .col-lg-6 {
+    width: 50%;
+  }
+    }
